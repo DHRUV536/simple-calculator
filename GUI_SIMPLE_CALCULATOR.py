@@ -91,7 +91,7 @@ def btnclickc():
 import tkinter
 from tkinter import ttk
 win=tkinter.Tk()
-win.title("CALCULATOR")
+win.title("SIMPLE CALCULATOR")
 user_input=tkinter.StringVar()
 dhruv=ttk.Entry(win,font=('arial',20,'bold'),textvariable=user_input,justify='center').grid(row=1,column=0)
 style=ttk.Style()
